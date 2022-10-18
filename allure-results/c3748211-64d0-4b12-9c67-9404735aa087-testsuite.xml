@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666097522174' stop='1666097529451'>
+    <name>Sales And Inventory</name>
+    <title>Sales And Inventory</title>
+    <test-cases>
+        <test-case start='1666097522175' status='passed' stop='1666097529449'>
+            <name>Creating Customer</name>
+            <title>Creating Customer</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

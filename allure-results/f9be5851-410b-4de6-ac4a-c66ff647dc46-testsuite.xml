@@ -1,0 +1,32 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666097850699' stop='1666097856830'>
+    <name>Sales and Inventory</name>
+    <title>Sales and Inventory</title>
+    <test-cases>
+        <test-case start='1666097850700' status='broken' stop='1666097856800'>
+            <name>Admin_Transactions</name>
+            <title>Admin_Transactions</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Cannot read properties of undefined (reading 'trim')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'trim')
+                    at Element.selectByVisibleText (C:\Users\91910\Desktop\Wd_IO\node_modules\@wdio\runner\node_modules\webdriverio\build\commands\element\selectByVisibleText.js:41:10)
+                    at Element.wrapCommandFn (C:\Users\91910\Desktop\Wd_IO\node_modules\@wdio\utils\build\shim.js:137:38)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\91910\Desktop\Wd_IO\node_modules\@wdio\runner\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (C:\Users\91910\Desktop\Wd_IO\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async adminTransactionPage.selectcustomer (C:\Users\91910\Desktop\Wd_IO\test\pageobjects\adminTransactionPage.js:46:9)
+                    at async Context.&lt;anonymous> (C:\Users\91910\Desktop\Wd_IO\test\specs\adminTransactionSpec.js:27:13)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

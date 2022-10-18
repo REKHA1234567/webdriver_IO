@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666097748292' stop='1666097752484'>
+    <name>Sales and Inventory</name>
+    <title>Sales and Inventory</title>
+    <test-cases>
+        <test-case start='1666097748381' status='broken' stop='1666097752472'>
+            <name>Admin_Transactions</name>
+            <title>Admin_Transactions</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browserVersion' value='106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='98b860cc-dcf1-4b49-a729-b50f7f7f102e-attachment.mp4' type='video/mp4' size='116'/>
+            </attachments>
+            <failure>
+                <message>no such alert
+                  (Session info: chrome=106.0.5249.119)</message>
+                <stack-trace>no such alert: no such alert
+                  (Session info: chrome=106.0.5249.119)
+                    at getErrorFromResponseBody (C:\Users\91910\Desktop\Wd_IO\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (C:\Users\91910\Desktop\Wd_IO\node_modules\webdriver\build\request\index.js:166:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Browser.wrapCommandFn (C:\Users\91910\Desktop\Wd_IO\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Context.&lt;anonymous> (C:\Users\91910\Desktop\Wd_IO\test\specs\adminTransactionSpec.js:16:28)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
